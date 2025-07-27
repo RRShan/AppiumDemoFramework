@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MobileAppSuite">
+    <!-- Declare your parameters here -->
+    <parameter name="platform"     value="android"/>
+    <parameter name="deviceName"   value="emulator-5554"/>
+    <parameter name="appFileName"  value="/App/Demo.apk"/>
+
+    <test name="AndroidTest">
+        <classes>
+            <class name="runner.TestRunnerAndroid"/>
+        </classes>
+    </test>
+</suite>

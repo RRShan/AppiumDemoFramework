@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MobileAppSuite">
+    <test name="IosTest">
+        <parameter name="platform"    value="ios"/>
+        <parameter name="deviceName"  value="iPhone 14"/>
+        <parameter name="appFileName" value="/App/Demo.app"/>
+        <classes>
+            <class name="runner.TestRunnerIos"/>
+        </classes>
+    </test>
+</suite>

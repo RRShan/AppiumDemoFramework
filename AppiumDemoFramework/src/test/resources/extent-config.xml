@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <theme>standard</theme>
+    <documentTitle>My Report</documentTitle>
+    <reportName>Cucumber Results</reportName>
+    <encoding>UTF-8</encoding>
+</configuration>
